@@ -1,1 +1,3 @@
-# Fuzzy-Match-Surah-Number-and-Ayah-Number-using-Large-Language-Model
+# Fuzzy Match Surah Number and Ayah Number using a Large Language Model
+
+The Quran is composed of 114 chapters and several thousand corresponding verses. In order to search for a specific chapter and verse online, the user can choose to enter the corresponding values directly into the URL (for example: quran.com/2:36). However, sometimes, the user may enter an unpredictable format. In the past, we would need to use RegExp to match all sorts of patterns. But now, we can use a large language model (GPT-3.5 in this case) to infer the chapter and verse entered by the user. This method is more versatile if the first option fails.
